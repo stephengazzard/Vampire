@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCF8AE1C1B2A1CCB003095AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8AE1B1B2A1CCB003095AC /* AppDelegate.swift */; };
+		BCF8AE1E1B2A1CCB003095AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8AE1D1B2A1CCB003095AC /* ViewController.swift */; };
+		BCF8AE211B2A1CCB003095AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF8AE1F1B2A1CCB003095AC /* Main.storyboard */; };
+		BCF8AE231B2A1CCB003095AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF8AE221B2A1CCB003095AC /* Assets.xcassets */; };
+		BCF8AE261B2A1CCB003095AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF8AE241B2A1CCB003095AC /* LaunchScreen.storyboard */; };
+		BCF8AE311B2A1CCB003095AC /* VampireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8AE301B2A1CCB003095AC /* VampireTests.swift */; };
+		BCF8AE3C1B2A1CCB003095AC /* VampireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8AE3B1B2A1CCB003095AC /* VampireUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCF8AE2D1B2A1CCB003095AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF8AE101B2A1CCB003095AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF8AE171B2A1CCB003095AC;
+			remoteInfo = Vampire;
+		};
+		BCF8AE381B2A1CCB003095AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF8AE101B2A1CCB003095AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF8AE171B2A1CCB003095AC;
+			remoteInfo = Vampire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCF8AE181B2A1CCB003095AC /* Vampire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vampire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF8AE1B1B2A1CCB003095AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCF8AE1D1B2A1CCB003095AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCF8AE201B2A1CCB003095AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCF8AE221B2A1CCB003095AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCF8AE251B2A1CCB003095AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCF8AE271B2A1CCB003095AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF8AE2C1B2A1CCB003095AC /* VampireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VampireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF8AE301B2A1CCB003095AC /* VampireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VampireTests.swift; sourceTree = "<group>"; };
+		BCF8AE321B2A1CCB003095AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF8AE371B2A1CCB003095AC /* VampireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VampireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF8AE3B1B2A1CCB003095AC /* VampireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VampireUITests.swift; sourceTree = "<group>"; };
+		BCF8AE3D1B2A1CCB003095AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCF8AE151B2A1CCB003095AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF8AE291B2A1CCB003095AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF8AE341B2A1CCB003095AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCF8AE0F1B2A1CCB003095AC = {
+			isa = PBXGroup;
+			children = (
+				BCF8AE1A1B2A1CCB003095AC /* Vampire */,
+				BCF8AE2F1B2A1CCB003095AC /* VampireTests */,
+				BCF8AE3A1B2A1CCB003095AC /* VampireUITests */,
+				BCF8AE191B2A1CCB003095AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCF8AE191B2A1CCB003095AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF8AE181B2A1CCB003095AC /* Vampire.app */,
+				BCF8AE2C1B2A1CCB003095AC /* VampireTests.xctest */,
+				BCF8AE371B2A1CCB003095AC /* VampireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF8AE1A1B2A1CCB003095AC /* Vampire */ = {
+			isa = PBXGroup;
+			children = (
+				BCF8AE1B1B2A1CCB003095AC /* AppDelegate.swift */,
+				BCF8AE1D1B2A1CCB003095AC /* ViewController.swift */,
+				BCF8AE1F1B2A1CCB003095AC /* Main.storyboard */,
+				BCF8AE221B2A1CCB003095AC /* Assets.xcassets */,
+				BCF8AE241B2A1CCB003095AC /* LaunchScreen.storyboard */,
+				BCF8AE271B2A1CCB003095AC /* Info.plist */,
+			);
+			path = Vampire;
+			sourceTree = "<group>";
+		};
+		BCF8AE2F1B2A1CCB003095AC /* VampireTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF8AE301B2A1CCB003095AC /* VampireTests.swift */,
+				BCF8AE321B2A1CCB003095AC /* Info.plist */,
+			);
+			path = VampireTests;
+			sourceTree = "<group>";
+		};
+		BCF8AE3A1B2A1CCB003095AC /* VampireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF8AE3B1B2A1CCB003095AC /* VampireUITests.swift */,
+				BCF8AE3D1B2A1CCB003095AC /* Info.plist */,
+			);
+			path = VampireUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCF8AE171B2A1CCB003095AC /* Vampire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF8AE401B2A1CCB003095AC /* Build configuration list for PBXNativeTarget "Vampire" */;
+			buildPhases = (
+				BCF8AE141B2A1CCB003095AC /* Sources */,
+				BCF8AE151B2A1CCB003095AC /* Frameworks */,
+				BCF8AE161B2A1CCB003095AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vampire;
+			productName = Vampire;
+			productReference = BCF8AE181B2A1CCB003095AC /* Vampire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCF8AE2B1B2A1CCB003095AC /* VampireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF8AE431B2A1CCB003095AC /* Build configuration list for PBXNativeTarget "VampireTests" */;
+			buildPhases = (
+				BCF8AE281B2A1CCB003095AC /* Sources */,
+				BCF8AE291B2A1CCB003095AC /* Frameworks */,
+				BCF8AE2A1B2A1CCB003095AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF8AE2E1B2A1CCB003095AC /* PBXTargetDependency */,
+			);
+			name = VampireTests;
+			productName = VampireTests;
+			productReference = BCF8AE2C1B2A1CCB003095AC /* VampireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCF8AE361B2A1CCB003095AC /* VampireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF8AE461B2A1CCB003095AC /* Build configuration list for PBXNativeTarget "VampireUITests" */;
+			buildPhases = (
+				BCF8AE331B2A1CCB003095AC /* Sources */,
+				BCF8AE341B2A1CCB003095AC /* Frameworks */,
+				BCF8AE351B2A1CCB003095AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF8AE391B2A1CCB003095AC /* PBXTargetDependency */,
+			);
+			name = VampireUITests;
+			productName = VampireUITests;
+			productReference = BCF8AE371B2A1CCB003095AC /* VampireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCF8AE101B2A1CCB003095AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Broken Kings";
+				TargetAttributes = {
+					BCF8AE171B2A1CCB003095AC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BCF8AE2B1B2A1CCB003095AC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BCF8AE171B2A1CCB003095AC;
+					};
+					BCF8AE361B2A1CCB003095AC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BCF8AE171B2A1CCB003095AC;
+					};
+				};
+			};
+			buildConfigurationList = BCF8AE131B2A1CCB003095AC /* Build configuration list for PBXProject "Vampire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCF8AE0F1B2A1CCB003095AC;
+			productRefGroup = BCF8AE191B2A1CCB003095AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCF8AE171B2A1CCB003095AC /* Vampire */,
+				BCF8AE2B1B2A1CCB003095AC /* VampireTests */,
+				BCF8AE361B2A1CCB003095AC /* VampireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCF8AE161B2A1CCB003095AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF8AE261B2A1CCB003095AC /* LaunchScreen.storyboard in Resources */,
+				BCF8AE231B2A1CCB003095AC /* Assets.xcassets in Resources */,
+				BCF8AE211B2A1CCB003095AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF8AE2A1B2A1CCB003095AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF8AE351B2A1CCB003095AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCF8AE141B2A1CCB003095AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF8AE1E1B2A1CCB003095AC /* ViewController.swift in Sources */,
+				BCF8AE1C1B2A1CCB003095AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF8AE281B2A1CCB003095AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF8AE311B2A1CCB003095AC /* VampireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF8AE331B2A1CCB003095AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF8AE3C1B2A1CCB003095AC /* VampireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCF8AE2E1B2A1CCB003095AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF8AE171B2A1CCB003095AC /* Vampire */;
+			targetProxy = BCF8AE2D1B2A1CCB003095AC /* PBXContainerItemProxy */;
+		};
+		BCF8AE391B2A1CCB003095AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF8AE171B2A1CCB003095AC /* Vampire */;
+			targetProxy = BCF8AE381B2A1CCB003095AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCF8AE1F1B2A1CCB003095AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF8AE201B2A1CCB003095AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCF8AE241B2A1CCB003095AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF8AE251B2A1CCB003095AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCF8AE3E1B2A1CCB003095AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCF8AE3F1B2A1CCB003095AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCF8AE411B2A1CCB003095AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vampire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrokenKings.Vampire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCF8AE421B2A1CCB003095AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vampire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrokenKings.Vampire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCF8AE441B2A1CCB003095AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VampireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrokenKings.VampireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vampire.app/Vampire";
+			};
+			name = Debug;
+		};
+		BCF8AE451B2A1CCB003095AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VampireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrokenKings.VampireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vampire.app/Vampire";
+			};
+			name = Release;
+		};
+		BCF8AE471B2A1CCB003095AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VampireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrokenKings.VampireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vampire;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BCF8AE481B2A1CCB003095AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VampireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrokenKings.VampireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vampire;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCF8AE131B2A1CCB003095AC /* Build configuration list for PBXProject "Vampire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF8AE3E1B2A1CCB003095AC /* Debug */,
+				BCF8AE3F1B2A1CCB003095AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF8AE401B2A1CCB003095AC /* Build configuration list for PBXNativeTarget "Vampire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF8AE411B2A1CCB003095AC /* Debug */,
+				BCF8AE421B2A1CCB003095AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCF8AE431B2A1CCB003095AC /* Build configuration list for PBXNativeTarget "VampireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF8AE441B2A1CCB003095AC /* Debug */,
+				BCF8AE451B2A1CCB003095AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCF8AE461B2A1CCB003095AC /* Build configuration list for PBXNativeTarget "VampireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF8AE471B2A1CCB003095AC /* Debug */,
+				BCF8AE481B2A1CCB003095AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCF8AE101B2A1CCB003095AC /* Project object */;
+}

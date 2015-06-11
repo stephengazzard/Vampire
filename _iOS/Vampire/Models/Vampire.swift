@@ -11,6 +11,10 @@ import Foundation
 class Vampire: NSObject, NSCoding {
     var hunger : Float = 0
 
+    override init() {
+        super.init()
+    }
+
     // MARK: NSCoding
     private static let hungerKey = "hungerKey"
     required init?(coder aDecoder: NSCoder) {
